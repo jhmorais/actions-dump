@@ -19,7 +19,7 @@ jobs:
         run: |
           echo "::set-output name=version::$(node -v)"
 
-      - name: Get node_modules cache
+      - name: Get node_modules cache 2
         uses: actions/cache@v3.0.2
         id: node_modules
         with:
